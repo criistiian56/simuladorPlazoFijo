@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Plazo Fijo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simulador de Plazo Fijo</h1>
+
+    <div class="contenedor">
+        <div class="formulario">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="monto">Monto a invertir:</label>
+            <input type="number" id="monto" min="1000" required>
+
+            <label for="dias">Cantidad de días:</label>
+            <input type="number" id="dias" min="30" required>
+
+            <label for="reinvertir"><input type="checkbox" id="reinvertir">Reinvertir capital</label>
+
+            <button class="calcular-btn" onclick="calcularInversion()">Calcular</button>
+        </div>
+
+        <div class="tabla">
+            <table id="tablaResultado">
+                <tr>
+                    <th>Monto Final</th>
+                </tr>
+            </table>
+            <table>
+                <div id="resultado"></div>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

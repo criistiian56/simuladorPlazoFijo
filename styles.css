@@ -1,0 +1,95 @@
+body {
+    margin: 100px;
+    padding: center;
+}
+
+.contenedor {
+display: flex;
+justify-content: space-between;
+}
+
+.formulario {
+flex: 1;
+margin-right: 20px;
+}
+
+.tabla {
+flex: 1;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+table th, table td {
+border: 1px solid whitesmoke;
+padding: 8px;
+text-align: center;
+}
+
+table th {
+background-color: teal;
+color: white;
+}
+
+table td {
+background-color: #e7e7e7;
+}
+
+.tabla-reinversion {
+border-collapse: collapse;
+width: 100%;
+}
+
+.tabla-reinversion th, .tabla-reinversion td {
+border: 1px solid whitesmoke;
+padding: 8px;
+text-align: center;
+}
+
+.tabla-reinversion th {
+background-color: teal;
+}
+
+h1 {
+color: #333;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input[type="text"]{
+padding: 8px;
+border: 1px solid gainsboro;
+border-radius: 4px;
+}
+
+input[type="number"]{
+width: 100px;
+padding: 8px;
+border: 1px solid gainsboro;
+border-radius: 4px;
+}
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+background-color: teal;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 4px;
+}
+
+#resultado {
+margin-top: 20px;
+font-weight: bold;
+}
+
+#tablaResultado {
+    margin-top: 20px;
+    font-weight: bold;
+    }
